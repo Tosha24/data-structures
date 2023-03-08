@@ -17,7 +17,7 @@ public class _CheckPrime {
         }
     }
     public static void main(String[] args) {
-        int n = 341;
+        int n = 53;
         System.out.println(isPrime(n));
     }
 }
