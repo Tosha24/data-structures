@@ -22,3 +22,6 @@ public class _78_PrintSubsequence {
         printSequence(0, arr, new ArrayList<Integer>());
     }
 }
+
+// Time Complexity: O(2^N * N)
+// Space Complexity: O(N)

@@ -8,30 +8,40 @@
 * We reach end of the array length(for all possible iterations) and then if the sum is equal to the required sum we return 1 to indicate 1 subsequence. and return 0 to indicate no subsequence with reqSum. At last after performing both the add and remove function we now add both the count of subsequences and return for the previous solution.
  */
 
-import java.util.Stack;
+#include <iostream>
+#include <vector>
+#include <stack>
+using namespace std;
 
-public class _CountSubsequencesWithSum {
-    private static int printSubsequence(int index, int[] arr, Stack<Integer> s, int sum, int target) {
-        if (index == arr.length) {
+class _CountSubsequencesWithSum {
+public:
+    static int printSubsequence(int index, vector<int>& nums, stack<int>& ds, int sum, int target) {
+        if (index == nums.size()) {
             if (sum == target) {
                 return 1;
             }
             else
-            return 0;
+                return 0;
         }
-        s.push(arr[index]);
-        sum = sum + arr[index];
-        int l = printSubsequence(index + 1, arr, s, sum, target);
+        ds.push(nums[index]);
+        sum = sum + nums[index];
+        int l = printSubsequence(index + 1, nums, ds, sum, target);
 
-        int item = s.pop();
-        sum = sum - item;
-        int r = printSubsequence(index + 1, arr, s, sum, target);
+        ds.pop();
+        sum = sum - nums[index];
+        int r = printSubsequence(index + 1, nums, ds, sum, target);
         return l+r;
     }
-    public static void main(String[] args) {
-        int[] arr = { 1, 2, 1 };
-        int target = 2;
-        int count = printSubsequence(0, arr, new Stack<Integer>(), 0, target);
-        System.out.println(count);
-    }
+};
+
+int main(){
+    vector<int> nums = {1, 2, 1};
+    int target = 2;
+    stack<int> ds;
+    int count = _CountSubsequencesWithSum::printSubsequence(0, nums, ds, 0, target);
+    cout << count << endl;
+    return 0;
 }
+
+// Time Complexity: O(2^N * N)
+// Space Complexity: O(N)

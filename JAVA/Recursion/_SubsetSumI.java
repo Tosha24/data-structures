@@ -34,3 +34,6 @@ public class _SubsetSumI{
         System.out.println(subsetSums(arr, N));
     }
 }
+
+// Time Complexity: O(2^N + 2^N*log(2^N)) 
+// Space Complexity: O(2^N)

@@ -1,29 +1,31 @@
-// Problem: The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other. The queens attack each other when either another queen is in its any diagonal, or in the same row or same column with other queen. Given an integer n, return count of all distinct solutions to the n-queens puzzle.
-// For eg: Input: n = 4     ==>   Output: 2
+// Problem: The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other. The queens attack each other when either another queen is in its any diagonal, or in the same row or same column with other queen. Given an integer n, return all distinct solutions to the n-queens puzzle.
+// For eg: Input: n = 4     ==>   Output: [["..Q.", "Q...", "...Q", ".Q.."], [".Q..", "...Q", "Q...", "..Q."]]
 
 // Approach: Recursion and backtracking
 
-import java.util.List;
-import java.util.ArrayList;
-public class _52_NQueensII {
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class _51_NQueens{
     // Initial function : It creates board, and initialize the whole board with '.' to indicate empty cell.
-    private static int solveNQueens(int n){
-        char[][] board = new char[n][n];
+public:
+    static vector<vector<string>> solveNQueens(int n){
+        vector<string> board(n);
+        string s(n, '.');
         for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                board[i][j] = '.';
-            }
+            board[i] = s;
         }
-        List<List<String>> ans = new ArrayList<List<String>>();
+        vector<vector<string>> ans;
         placeQueens(0, n, board, ans);
-        return ans.size();
+        return ans;
     }
 
     // Main function: It will place queens column wise only when it does not attack the other queens.
-    private static void placeQueens(int col, int n, char[][] board, List<List<String>> ans){
+    static void placeQueens(int col, int n, vector<string>& board, vector<vector<string>>& ans){
         // If the column pointer completed placing queens in all columns we add that as a solution.
         if(col == n){
-            ans.add(matrixToString(board));
+            ans.push_back(board);
             return;
         }
         
@@ -37,21 +39,8 @@ public class _52_NQueensII {
         }
     }
 
-    // Answer: Converts all the rows of final board[][] matrix into the different strings and append to the list
-    private static List<String> matrixToString(char[][] board){
-        List<String> ans = new ArrayList<String>();
-        for(int r = 0; r < board.length; r++){
-            String str = "";
-            for(int c = 0; c < board.length; c++){
-                str = str + board[r][c];
-            }
-            ans.add(str);
-        }
-        return ans;
-    }
-
     // Condition function: Check if the queen to be placed does not attack other queens
-    private static boolean isPossible(int row, int col, char[][] board, int n){
+    static bool isPossible(int row, int col, vector<string>& board, int n){
         // Checking upper left diagonal
         int r = row;
         int c = col;
@@ -90,8 +79,22 @@ public class _52_NQueensII {
         // If no queens are found that are conflicting the condition, then return true
         return true;
     }
-    public static void main(String[] args){
-        int n = 4;
-        System.out.println(solveNQueens(n));
+};
+
+int main(){
+    int n = 4;
+    vector<vector<string>> ans = _51_NQueens::solveNQueens(n);
+    cout << "[ ";
+    for (int i = 0; i < ans.size(); i++) {
+        cout << "[ ";
+        for (int j = 0; j < ans[i].size(); j++) {
+        cout << ans[i][j] << ", ";
+        }
+        cout << "]";
     }
+    cout << " ]";
+    return 0;
 }
+
+// Time Complexity: O(N!)
+// Space Complexity: O(N^2)

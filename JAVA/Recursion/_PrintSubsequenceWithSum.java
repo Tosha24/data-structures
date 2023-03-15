@@ -32,3 +32,6 @@ public class _PrintSubsequenceWithSum {
         printSubsequence(0, arr, new Stack<Integer>(), 0, reqSum);
     }
 }
+
+// Time Complexity: O(2^N * N)
+// Space Complexity: O(N)

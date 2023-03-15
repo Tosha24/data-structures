@@ -39,3 +39,6 @@ public class _40_CombinationSumII {
         System.out.println(myList);
     }
 }
+
+// Time Complexity: O(2^n * k)
+// Space Complexity: O(n*k)

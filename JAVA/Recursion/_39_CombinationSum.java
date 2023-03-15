@@ -39,4 +39,5 @@ public class _39_CombinationSum{
     }   
 }
 
-// Time Complexity: O(2^n)
+// Time Complexity: O(2^n * k)
+// Space Complexity: O(k*n)

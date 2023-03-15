@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "ostream": "cpp",
+    "chrono": "cpp",
+    "random": "cpp",
+    "limits": "cpp",
+    "valarray": "cpp",
+    "*.tcc": "cpp",
+    "list": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp"
+  }
+}
