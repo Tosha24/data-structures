@@ -5,6 +5,7 @@
  * Here we simply iterate from the first element in linked list and reverse the link of each element.
  * We iterate till our head reaches the nullptr.
  */
+
 class ListNode{
     int val;
     ListNode next;
@@ -44,3 +45,6 @@ public class _206_ReverseLinkedList {
         }
     }   
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
