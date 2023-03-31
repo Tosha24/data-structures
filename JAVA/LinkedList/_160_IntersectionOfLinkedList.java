@@ -1,5 +1,5 @@
-// Problem: 
-// For eg: 
+// Problem: Given a linked list, return the node where the intersection of two singly linked lists begins. If the two linked lists have no intersection at all, return null.
+// For eg: Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3   ==>   Output: Reference of the node with value = 8
 
 /* Solution:
  * Approach 1:
