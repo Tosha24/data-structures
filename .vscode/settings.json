@@ -1,6 +1,7 @@
 {
   "java.debug.settings.onBuildFailureProceed": true,
   "files.associations": {
-    "functional": "cpp"
+    "functional": "cpp",
+    "regex": "cpp"
   }
 }
