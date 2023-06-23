@@ -2,6 +2,10 @@
   "java.debug.settings.onBuildFailureProceed": true,
   "files.associations": {
     "functional": "cpp",
-    "regex": "cpp"
+    "regex": "cpp",
+    "chrono": "cpp",
+    "random": "cpp",
+    "limits": "cpp",
+    "valarray": "cpp"
   }
 }

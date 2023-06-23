@@ -17,7 +17,7 @@
  * 6. Check if the first column has 0, if yes, make the entire column 0.
  */
 public class _73_SetMatrixZeroes {
-    public static void better_setZeroes(int[][] matrix){
+    private static void better_setZeroes(int[][] matrix){
         int[] colArr = new int[matrix[0].length];
         int[] rowArr = new int[matrix.length];
         
@@ -38,7 +38,7 @@ public class _73_SetMatrixZeroes {
             }
         }
     }
-    public static void setZeroes(int[][] matrix){
+    private static void setZeroes(int[][] matrix){
         int col0 = 1;
         int m = matrix.length;
         int n = matrix[0].length;
