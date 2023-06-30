@@ -1,0 +1,449 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "_62_UniquePaths",
+            "request": "launch",
+            "mainClass": "_62_UniquePaths",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_1095_FindInMountainArray",
+            "request": "launch",
+            "mainClass": "_1095_FindInMountainArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_118_PascalTriangle",
+            "request": "launch",
+            "mainClass": "_118_PascalTriangle",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_121_BestTimeToBuyAndSellStock",
+            "request": "launch",
+            "mainClass": "_121_BestTimeToBuyAndSellStock",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_1295_FindNumberOfEvenDigit",
+            "request": "launch",
+            "mainClass": "_1295_FindNumberOfEvenDigit",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_131_PalindromePartioning",
+            "request": "launch",
+            "mainClass": "_131_PalindromePartioning",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_132_PalindromePartioningII",
+            "request": "launch",
+            "mainClass": "_132_PalindromePartioningII",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_136_SingleNumber",
+            "request": "launch",
+            "mainClass": "_136_SingleNumber",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_141_LinkedListCycle",
+            "request": "launch",
+            "mainClass": "_141_LinkedListCycle",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_1672_findMaximumWealth",
+            "request": "launch",
+            "mainClass": "_1672_findMaximumWealth",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_169_MajorityElement",
+            "request": "launch",
+            "mainClass": "_169_MajorityElement",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_1752_CheckIfArrayIsSortedRotated",
+            "request": "launch",
+            "mainClass": "_1752_CheckIfArrayIsSortedRotated",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_189_RotateArray",
+            "request": "launch",
+            "mainClass": "_189_RotateArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_1_TwoSum",
+            "request": "launch",
+            "mainClass": "_1_TwoSum",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_229_MajorityElementII",
+            "request": "launch",
+            "mainClass": "_229_MajorityElementII",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_231_PowerOfTwo",
+            "request": "launch",
+            "mainClass": "_231_PowerOfTwo",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_268_MissingNumber",
+            "request": "launch",
+            "mainClass": "_268_MissingNumber",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_26_RemoveDuplicatesFromSortedArray",
+            "request": "launch",
+            "mainClass": "_26_RemoveDuplicatesFromSortedArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_283_MoveZeroes",
+            "request": "launch",
+            "mainClass": "_283_MoveZeroes",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_287_FindTheDuplicate",
+            "request": "launch",
+            "mainClass": "_287_FindTheDuplicate",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_31_NextPermutation",
+            "request": "launch",
+            "mainClass": "_31_NextPermutation",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_326_PowerOfThree",
+            "request": "launch",
+            "mainClass": "_326_PowerOfThree",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_33_SearchInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "_33_SearchInRotatedSortedArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_342_PowerOfFour",
+            "request": "launch",
+            "mainClass": "_342_PowerOfFour",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_34_FirstAndLastPositionOfElementInSortedArray",
+            "request": "launch",
+            "mainClass": "_34_FirstAndLastPositionOfElementInSortedArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_35_SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "_35_SearchInsertPosition",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_37_SudokuSolver",
+            "request": "launch",
+            "mainClass": "_37_SudokuSolver",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_39_CombinationSum",
+            "request": "launch",
+            "mainClass": "_39_CombinationSum",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_40_CombinationSumII",
+            "request": "launch",
+            "mainClass": "_40_CombinationSumII",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_410_SplitArrayLargestSum",
+            "request": "launch",
+            "mainClass": "_410_SplitArrayLargestSum",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_46_Permutations",
+            "request": "launch",
+            "mainClass": "_46_Permutations",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_47_PermutationII",
+            "request": "launch",
+            "mainClass": "_47_PermutationII",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_485_MaxConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "_485_MaxConsecutiveOnes",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_48_RotateImage",
+            "request": "launch",
+            "mainClass": "_48_RotateImage",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_50_Powerxn",
+            "request": "launch",
+            "mainClass": "_50_Powerxn",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_51_NQueens",
+            "request": "launch",
+            "mainClass": "_51_NQueens",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_52_NQueensII",
+            "request": "launch",
+            "mainClass": "_52_NQueensII",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_53_MaximumSubarray",
+            "request": "launch",
+            "mainClass": "_53_MaximumSubarray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_56_MergeIntervals",
+            "request": "launch",
+            "mainClass": "_56_MergeIntervals",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_60_PermutationSequence",
+            "request": "launch",
+            "mainClass": "_60_PermutationSequence",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_62_UniquePaths",
+            "request": "launch",
+            "mainClass": "_62_UniquePaths",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_69_SquareRoot",
+            "request": "launch",
+            "mainClass": "_69_SquareRoot",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_73_SetMatrixZeroes",
+            "request": "launch",
+            "mainClass": "_73_SetMatrixZeroes",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_744_FindSmallestLetterGreaterThanTarget",
+            "request": "launch",
+            "mainClass": "_744_FindSmallestLetterGreaterThanTarget",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_74_SearchIn2DArray",
+            "request": "launch",
+            "mainClass": "_74_SearchIn2DArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_75_SortColors",
+            "request": "launch",
+            "mainClass": "_75_SortColors",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_78_PrintSubsequence",
+            "request": "launch",
+            "mainClass": "_78_PrintSubsequence",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_852_PeakIndexOfMountainArray",
+            "request": "launch",
+            "mainClass": "_852_PeakIndexOfMountainArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_88_MergeSortedArray",
+            "request": "launch",
+            "mainClass": "_88_MergeSortedArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_90_SubsetSumII",
+            "request": "launch",
+            "mainClass": "_90_SubsetSumII",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_9_Palindrome",
+            "request": "launch",
+            "mainClass": "_9_Palindrome",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_BinarySearchInInfiniteArray",
+            "request": "launch",
+            "mainClass": "_BinarySearchInInfiniteArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_CheckPrime",
+            "request": "launch",
+            "mainClass": "_CheckPrime",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_CountSubsequencesWithSum",
+            "request": "launch",
+            "mainClass": "_CountSubsequencesWithSum",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_IntersectionOfSortedArray",
+            "request": "launch",
+            "mainClass": "_IntersectionOfSortedArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_MColoring",
+            "request": "launch",
+            "mainClass": "_MColoring",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_PalindromeRecursion",
+            "request": "launch",
+            "mainClass": "_PalindromeRecursion",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_PrintOneSubsequenceWithSum",
+            "request": "launch",
+            "mainClass": "_PrintOneSubsequenceWithSum",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_PrintSubsequenceWithSum",
+            "request": "launch",
+            "mainClass": "_PrintSubsequenceWithSum",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_RatInAMaze",
+            "request": "launch",
+            "mainClass": "_RatInAMaze",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_ReverseArray",
+            "request": "launch",
+            "mainClass": "_ReverseArray",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_SubsetSumI",
+            "request": "launch",
+            "mainClass": "_SubsetSumI",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_UnionOfSortedArray",
+            "request": "launch",
+            "mainClass": "_UnionOfSortedArray",
+            "projectName": "Leetcode_d74f43f4"
+        }
+    ]
+}
