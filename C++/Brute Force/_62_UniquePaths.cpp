@@ -32,7 +32,7 @@ public:
         if (dp[i][j] != 0)
             return dp[i][j];
         else
-            return move_right_down(i + 1, j, m, n, dp) + move_right_down(i, j + 1, m, n, dp);
+            return dp[i][j] = move_right_down(i + 1, j, m, n, dp) + move_right_down(i, j + 1, m, n, dp);
     }
 };
 

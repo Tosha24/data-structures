@@ -43,7 +43,7 @@ class _62_UniquePaths_DP{
         if(i >= m || j >= n) return 0;
 
         if(dp[i][j] != 0) return dp[i][j];
-        else return move_right_down(i+1, j, m, n, dp) + move_right_down(i, j+1, m, n, dp);
+        else return dp[i][j] = move_right_down(i+1, j, m, n, dp) + move_right_down(i, j+1, m, n, dp);
     }  
     int better_solution(int m, int n){
         return uniquePaths(m, n);

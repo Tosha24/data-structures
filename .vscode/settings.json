@@ -7,6 +7,8 @@
     "random": "cpp",
     "limits": "cpp",
     "valarray": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "bitset": "cpp",
+    "algorithm": "cpp"
   }
 }
