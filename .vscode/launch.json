@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_18_4Sum",
+            "request": "launch",
+            "mainClass": "_18_4Sum",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
             "name": "_493_ReversePairs",
             "request": "launch",
             "mainClass": "_493_ReversePairs",

@@ -9,6 +9,8 @@
     "valarray": "cpp",
     "ostream": "cpp",
     "bitset": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "*.tcc": "cpp",
+    "list": "cpp"
   }
 }
