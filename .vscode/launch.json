@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution2",
+            "request": "launch",
+            "mainClass": "Solution2",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
+            "name": "_128_LongestConsecutiveSequence",
+            "request": "launch",
+            "mainClass": "_128_LongestConsecutiveSequence",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
             "name": "_15_3Sum",
             "request": "launch",
             "mainClass": "_15_3Sum",
