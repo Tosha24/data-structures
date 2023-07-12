@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_3_LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "_3_LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "Leetcode_d74f43f4"
+        },
+        {
+            "type": "java",
             "name": "Solution2",
             "request": "launch",
             "mainClass": "Solution2",
