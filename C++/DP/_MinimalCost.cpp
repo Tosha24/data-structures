@@ -7,7 +7,7 @@ class Solution
 {
 public:
     // Memoization: TC - O(kN),  SC - O(N)
-    static int frogJump(int n, vector<int> &height, int k)
+    static int minimizeCost(int n, vector<int> &height, int k)
     {
         vector<int> dp(n, -1);
 
@@ -38,7 +38,7 @@ class Solution2_Tabulation
 {
 public:
     // Tabulation: TC - O(kN),   SC - O(N)
-    static int frogJump(int n, vector<int> &height, int k)
+    static int minimizeCost(int n, vector<int> &height, int k)
     {
         vector<int> dp(n);
 
@@ -64,7 +64,7 @@ int main()
     vector<int> height = {10, 40, 50, 20, 60};
     int n = 5;
     int k = 3;
-    cout << Solution::frogJump(n, height, k) << endl;
-    cout << Solution2_Tabulation::frogJump(n - 1, height, k) << endl;
+    cout << Solution::minimizeCost(n, height, k) << endl;
+    cout << Solution2_Tabulation::minimizeCost(n - 1, height, k) << endl;
     return 0;
 }
