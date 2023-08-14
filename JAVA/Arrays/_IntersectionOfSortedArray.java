@@ -8,6 +8,7 @@
  * Finally, we return inter.
  */
 
+package Arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 

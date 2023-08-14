@@ -10,6 +10,7 @@
  * 7. We return the longest variable
  */
 
+package Arrays;
 import java.util.*;
 
 public class _128_LongestConsecutiveSequence {

@@ -8,6 +8,7 @@
  * Finally, we return union.
  */
 
+package Arrays;
 import java.util.*;
 
 public class _UnionOfSortedArray {

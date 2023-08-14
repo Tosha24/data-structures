@@ -8,6 +8,7 @@
 *  5. Return the result vector
 */
 
+package Arrays;
 import java.util.*;
 
 public class _56_MergeIntervals {

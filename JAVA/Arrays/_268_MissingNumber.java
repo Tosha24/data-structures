@@ -7,6 +7,7 @@
  * 3. The result obtained after subtracting all the numbers from the total sum will be the missing number.
  */
 
+package Arrays;
 public class _268_MissingNumber{
     private static int missingNumber(int[] nums){
         int n = nums.length;

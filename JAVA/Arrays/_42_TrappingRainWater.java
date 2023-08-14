@@ -8,6 +8,7 @@
  * 5. Return waterTrapped.
  */
 
+package Arrays;
 public class _42_TrappingRainWater {
     private static int trap(int[] height){
         int waterTrapped = 0;

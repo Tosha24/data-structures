@@ -12,6 +12,7 @@
  * 9. Add the temporary list to the final list. It will contain one whole row.
  */
 
+package Arrays;
 import java.util.*;
 
 public class _118_PascalTriangle{

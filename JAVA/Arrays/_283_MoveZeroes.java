@@ -9,6 +9,7 @@
  * We increment j in each iteration (even though no swapping is done).  
  */
 
+package Arrays;
 public class _283_MoveZeroes{
     private static void moveZeroes(int[] nums){
         int k = 0;

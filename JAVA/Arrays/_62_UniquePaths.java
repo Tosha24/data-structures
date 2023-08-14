@@ -6,6 +6,7 @@
  * 3. So, the result will be calculated using NCr where N = m + n - 2 and r = m - 1 or n - 1 whichever is smaller (to reduce the time complexity slightly)  
  */
 
+package Arrays;
 public class _62_UniquePaths {
     private static int uniquePaths(int m, int n){
         int r = m - 1;

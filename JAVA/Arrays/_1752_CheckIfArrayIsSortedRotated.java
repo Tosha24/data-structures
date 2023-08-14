@@ -6,6 +6,7 @@
  * Finally, we check if count <= 1.
  */
 
+package Arrays;
 public class _1752_CheckIfArrayIsSortedRotated{
     public static boolean check(int[] nums){
         int count = 0;

@@ -7,6 +7,7 @@
  * 4. Return the max.
  */
 
+package Arrays;
 public class _53_MaximumSubarray {
     private static int maxSubArray(int[] nums){
         /** Optimal Solution

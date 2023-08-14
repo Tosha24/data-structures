@@ -8,6 +8,8 @@
  * 4. Return the majority element after checking if the obtained majority element is truely a majority element (by iterating through the array and counting the number of times the majority element occurs) 
  */
 
+package Arrays;
+
 public class _169_MajorityElement{
     private static int majorityElement(int[] nums){
         int count = 0;

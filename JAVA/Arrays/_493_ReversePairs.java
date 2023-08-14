@@ -7,6 +7,7 @@
  * 4. We use the merge function to merge the sorted arrays.
  */
 
+package Arrays;
 import java.util.*;
 public class _493_ReversePairs {
     private static int reversePairs(int[] nums){

@@ -8,6 +8,8 @@
  * 5. Return the mini.
 */
 
+package Arrays;
+
 public class _209_MinimumSizeSubarraySum {
     private static int minSubArrayLen(int target, int[] nums){
         int mini = Integer.MAX_VALUE;

@@ -15,6 +15,7 @@
  * 12. We keep doing this until mid <= high.
  */
 
+package Arrays;
 public class _75_SortColors{
     private static void sortColors(int nums[]){
         int low = 0, mid = 0, high = nums.length - 1;

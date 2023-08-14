@@ -7,6 +7,7 @@
  * i is then incremented and we repeat the same process again until j reaches the end of array.
  */
 
+package Arrays;
 public class _26_RemoveDuplicatesFromSortedArray{
     public static int removeDuplicates(int[] nums){
         int i = 0;

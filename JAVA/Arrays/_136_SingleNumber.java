@@ -7,6 +7,8 @@
  * Hence, keeping above two rules in consideration, we can XOR all the elements of the given array together to find the unique non-repeating number.
  */
 
+package Arrays;
+
 public class _136_SingleNumber{
     private static int singleNumber(int[] nums){
         int xor = 0;

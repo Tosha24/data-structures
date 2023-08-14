@@ -6,6 +6,8 @@
  * 3. If the character is already in the hashmap, move the left pointer to the right of the character
  */
 
+package Arrays;
+
 import java.util.*;
 
 public class _3_LongestSubstringWithRepeatingCharacters {

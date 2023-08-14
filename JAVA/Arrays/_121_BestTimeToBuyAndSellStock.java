@@ -8,6 +8,7 @@
  * 5. Return the maximum profit
  */
 
+package Arrays;
 public class _121_BestTimeToBuyAndSellStock {
     private static int maxProfit(int[] prices){
         int maxProfit = 0;

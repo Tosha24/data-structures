@@ -13,6 +13,7 @@
  * 7. Return the result
  */
 
+package Arrays;
 import java.util.*;
 
 public class _18_4Sum {

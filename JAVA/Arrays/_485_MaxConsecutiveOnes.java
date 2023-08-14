@@ -7,6 +7,7 @@
  * Finally, we return max.
  */
 
+package Arrays;
 public class _485_MaxConsecutiveOnes{
     private static int findMaxConsecutiveOnes(int[] nums){
         int count = 0, max = 0;

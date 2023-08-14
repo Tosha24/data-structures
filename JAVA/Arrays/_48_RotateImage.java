@@ -5,6 +5,7 @@
  * 2. Reverse each row of the transposed matrix
  */
 
+package Arrays;
 public class _48_RotateImage {
     private static void rotate(int[][] matrix){
         int n = matrix.length;

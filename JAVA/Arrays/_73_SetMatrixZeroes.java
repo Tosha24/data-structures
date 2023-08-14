@@ -16,6 +16,8 @@
  * 5. Check if the first row has 0, if yes, make the entire row 0.
  * 6. Check if the first column has 0, if yes, make the entire column 0.
  */
+
+package Arrays;
 public class _73_SetMatrixZeroes {
     private static void better_setZeroes(int[][] matrix){
         int[] colArr = new int[matrix[0].length];

@@ -6,6 +6,7 @@
  * 3. Reverse the right half of the array to make it slightly greater than the previous permutation
  */
 
+package Arrays;
 public class _31_NextPermutation{
     private static void nextPermutation(int[] nums){
         // Find the point where the increasing sequence is not followed. This is called break-point

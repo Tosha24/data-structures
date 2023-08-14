@@ -7,6 +7,7 @@
  * 3. Reverse the whole array
  */
 
+package Arrays;
 public class _189_RotateArray{
     private static void reverse(int[] nums, int start, int end){
         int i = start;

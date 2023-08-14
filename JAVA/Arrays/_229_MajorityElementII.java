@@ -12,6 +12,8 @@
  * 4. Return the result
  */
 
+package Arrays;
+
 import java.util.*;
 
 public class _229_MajorityElementII {
