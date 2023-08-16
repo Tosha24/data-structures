@@ -22,7 +22,7 @@ int findPivot(vector<int>& nums, int start, int end){
         else if(nums[mid] <= nums[end]){
             end = mid - 1;
         }
-    }
+    }   
     return start;
 }
 
