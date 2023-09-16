@@ -11,6 +11,7 @@
     "bitset": "cpp",
     "algorithm": "cpp",
     "*.tcc": "cpp",
-    "list": "cpp"
+    "list": "cpp",
+    "queue": "cpp"
   }
 }
