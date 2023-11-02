@@ -5,32 +5,32 @@
 import java.util.*;
 
 class _2009_MinimumNumberofOperationstoMakeArrayContinuous {
-    public static int minOperations(int[] nums){
-        int n = nums.length;
-        Set<Integer> set = new HashSet<>();
-        for(int num: nums){
-            set.add(num);
-        }
-        int[] arr = new int[set.size()];
-        int idx = 0;
-        for(int num: set){
-            arr[idx++] = num;
-        }
+    public static int minOperations(int[] nums) {
+        int maxi = 0;
+        int count = 0; 
+        int n = nums.length - 1; 
+        int l = 0; 
 
-        Arrays.sort(arr);
-        int res = n;
+        Arrays.sort(nums); 
 
-        int r = 0;
-
-        for(int l = 0; l < arr.length; l++){
-            while(r < arr.length && arr[r] < arr[l] + n){
-                r += 1;
+        for (int i = 0; i < nums.length; i++) {
+            if (i + 1 < nums.length && nums[i] == nums[i + 1]) {
+                continue;
             }
-            int window = r - l;
-            res = Math.min(res, n - window);
+            nums[l++] = nums[i];
         }
-        return res;
-    }
+
+        for (int i = 0, j = 0; i < l; i++) {
+            while (j < l && (nums[j] - nums[i]) <= n) {
+                count++;
+                j++;
+            }
+            maxi = Math.max(maxi, count);
+            count--;
+        }
+
+        return nums.length - maxi;
+    }    
     public static void main(String[] args) {
         int[] nums = {1, 10, 100, 1000};
         System.out.println(minOperations(nums));
