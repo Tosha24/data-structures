@@ -1,6 +1,6 @@
-// Problem: return Root to Node Path in Binary Tree
+// ✔️ Binary Tree, Inorder Traversal
 
-// Problem: leetcode link: 
+// Problem: Code Studio
 
 // Time Complexity: O(N)
 // Space Complexity: O(N)
